@@ -1,0 +1,84 @@
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+main {
+    height: 49px;
+    width: 62px;
+    position: relative;
+}
+.div1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 100px;
+}
+.container {
+    flex: 0 0 40px;
+    text-align: center;
+}
+.logo img {
+    margin-left: 1200px;
+}
+.logo p {
+    margin-top: 10px;
+    margin-left: 1200px;
+    font-size: 25px;
+    text-align: center;
+}
+.container .input {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 300px;
+    margin-left: 180px;
+}
+.container .input input, .container .input .loginbtn {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 19px;
+}
+.container .input input {
+    color: #1d2129;
+    padding: 0 8px;
+}
+.container .input .loginbtn {
+    color: #ffffff;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    font-weight: 700;
+}
+.container .input a {
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0 20px;
+}
+.container .input .createbtn {
+    background-color: #42b728;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700px;
+    margin-top: 20px;   
+    border: none;
+}
